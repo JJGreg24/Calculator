@@ -1,7 +1,5 @@
 package com.example.calculator;
 
-import static com.example.calculator.R.layout.main_layout;
-
 import android.annotation.SuppressLint;
 import android.os.Bundle;
 import android.widget.Button;
@@ -21,7 +19,7 @@ public class MainActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(main_layout);
+        setContentView(R.layout.main_layout);
 
         num1 = findViewById(R.id.num1);
         num2 = findViewById(R.id.num2);
